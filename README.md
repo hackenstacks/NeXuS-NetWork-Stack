@@ -1,3 +1,6 @@
+Coming Soon 
+A highly experimental project!!!! If absolute anonymity is needed use TOR with the official TOR Browser.
+
 # ⚡⚡⚡ NeXuS Network Stack
 
 ![The Unstoppable Hydra](nexus-hydra-01.jpg)
@@ -13,11 +16,7 @@
 
 **🛡️ Multi-Network Privacy & Mesh Networking Stack 🛡️**
 
-### *The Unstoppable Hydra - Cut off one head, two networks emerge!* 🐉
-
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)]()
-[![Networks](https://img.shields.io/badge/Networks-5-blue.svg)]()
+### *The Unstoppable Hydra - Cut off one head, two more appear
 [![Philosophy](https://img.shields.io/badge/Philosophy-Sane%20%E2%80%A2%20Simple%20%E2%80%A2%20Secure-orange.svg)]()
 
 ---
@@ -50,7 +49,7 @@ They come in many forms:
 - 🏢 **The Corporate Giants** - Monetizing your attention, your relationships, your private thoughts
 - 🌐 **The ISPs** - Logging every domain, every packet, every digital breath you take
 
-They have the resources. They have the infrastructure. They have the law on their side.
+They have the resources. They have the infrastructure. 
 
 **But we have something they don't: the mathematics of freedom.** 🔐
 
@@ -82,11 +81,11 @@ When the internet dies, Reticulum lives. LoRa radios. Packet radio. Mesh network
 **Ports:** 4242 (Protocol), 4965 (UDP Discovery)
 **Mission:** Communication that survives when everything else fails
 
-#### 🔥 **Privoxy - The Smart Router**
+#### 🔥 **Privoxy - The Smart Proxy**
 The traffic cop that never sleeps. Routes .i2p domains to I2P, everything else through Tor. Blocks 10,000+ trackers, ad networks, and spy pixels. Your requests go where you want, not where they want.
 
 **Port:** 8118 (HTTP Proxy)
-**Mission:** Intelligent routing + aggressive ad/tracker blocking
+**Mission:** Intelligent Proxy + aggressive ad/tracker blocking
 
 #### 🔍 **Unbound DNS - The Privacy Resolver**
 Your DNS queries are nobody's business. Unbound resolves domains without leaking your browsing history to your ISP or Google's 8.8.8.8 surveillance resolver. Privacy starts at the first query.
@@ -100,6 +99,7 @@ Your DNS queries are nobody's business. Unbound resolves domains without leaking
 
 ### ⚡ Installation - The Arsenal Deployment
 
+code coming soon!!
 ```bash
 # Clone the freedom fortress
 git clone https://github.com/hackenstacks/nexus-network-stack.git
@@ -127,7 +127,7 @@ Watch as:
 - 👁️ I2P tunnels burrow through the darknet
 - 🌐 Yggdrasil meshes with the world tree
 - 📡 Reticulum prepares for off-grid comms
-- 🔥 Privoxy starts routing and blocking
+- 🔥 Privoxy starts proxing and blocking
 
 **Status: Armed and operational.** ✅
 
@@ -164,7 +164,9 @@ The doctor diagnoses and repairs:
 
 ### 🖥️ Configure Your Browser
 
-**Firefox / LibreWolf / Tor Browser:**
+**Firefox / LibreWolf / 
+**If absolute anonymity is needed use the
+**Tor Browser:** as intended by the TOR Project**
 1. Settings → Network Settings → Manual Proxy Configuration
 2. HTTP Proxy: `localhost` Port: `8118`
 3. ✅ Also use this proxy for HTTPS
@@ -179,6 +181,7 @@ The doctor diagnoses and repairs:
 **Test your anonymity:** Visit http://check.torproject.org
 
 If it says **"Congratulations! You are using Tor"** → **You're invisible.** 👻
+**Note using the TOR Browser in ways not in accordance with the TOR Projects Recommendations can lead to you being de-anonomized**
 
 ---
 
@@ -225,9 +228,9 @@ If it says **"Congratulations! You are using Tor"** → **You're invisible.** �
 |---------|-----------|-------|---------|------|------------|----------|
 | 🧅 **Tor** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐ | .onion | ❌ | ⭐⭐⭐⭐ | Web browsing anonymity |
 | 👁️ **I2P** | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | .i2p | ✅ | ⭐⭐⭐⭐⭐ | P2P, hidden services |
-| 🌐 **Yggdrasil** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | IPv6 mesh | ✅ | ⭐⭐⭐⭐⭐ | Censorship-resistant routing |
-| 📡 **Reticulum** | ⭐⭐⭐ | ⭐⭐ | Custom | ✅ | ⭐⭐⭐⭐⭐⭐ | Off-grid, no internet needed |
-| 🔥 **Privoxy** | N/A | ⭐⭐⭐⭐⭐ | Routes all | ✅ | ⭐⭐⭐⭐ | Smart routing + blocking |
+| 🌐 **Yggdrasil** | X | ⭐⭐⭐⭐⭐ | IPv6 mesh | ✅ | ⭐⭐⭐⭐⭐ | Censorship-resistant routing |
+| 📡 **Reticulum** | X | ⭐⭐ | Custom | ✅ | ⭐⭐⭐⭐⭐⭐ | Off-grid, no internet needed |
+| 🔥 **Privoxy** | N/A | ⭐⭐⭐⭐⭐ | Routes all | ✅ | ⭐⭐⭐⭐ | Smart proxing + blocking |
 
 **Together, they're unstoppable.** Each network covers weaknesses of the others. Multiple paths to freedom. 🛡️
 
@@ -239,7 +242,6 @@ If it says **"Congratulations! You are using Tor"** → **You're invisible.** �
 - Click one button: `./nexus-launch.sh`
 - Your internet is now private
 - Nobody can track what you browse
-- It's like curtains on your windows - just digital!
 
 ### 👨‍👩‍👧‍👦 **For Parents:**
 - Protect your family's browsing from trackers
@@ -260,31 +262,7 @@ If it says **"Congratulations! You are using Tor"** → **You're invisible.** �
 - Reticulum for off-grid communications
 - Customize, extend, contribute - GPL-3.0 baby!
 
-**Privacy is for everyone. NeXuS is for everyone.** ⚡⚡⚡
-
----
-
-## 🔥 Real-World Battle Stories
-
-### 📰 **Journalist in Hostile Territory**
-*"I was covering protests where the government was tracking journalists. NeXuS let me upload footage through I2P while appearing to browse normal websites through Tor. The footage made it out. I made it out. Thank you."*
-
-**Networks used:** Tor (decoy traffic) + I2P (real uploads)
-
-### 🌍 **Activist Behind the Firewall**
-*"The Great Firewall blocks Tor exit nodes. But Yggdrasil routes around it entirely - it's mesh networking, there's no 'exit node' to block. I coordinate with others using Yggdrasil IPv6 addresses. We're unstoppable now."*
-
-**Networks used:** Yggdrasil (firewall circumvention) + I2P (organizing)
-
-### 📡 **Disaster Relief Coordinator**
-*"Hurricane knocked out all infrastructure. Cell towers down, internet gone. We used Reticulum over LoRa radios to coordinate rescue efforts across 50 miles. NeXuS isn't just privacy - it's survival."*
-
-**Networks used:** Reticulum (off-grid mesh communications)
-
-### 🏠 **Privacy-Conscious Family**
-*"I'm not doing anything illegal, I just don't want Amazon/Google/Facebook knowing every website my family visits. NeXuS was one script to install, one button to run. Even my kids can use it. Privacy should be this easy."*
-
-**Networks used:** Tor (anonymous browsing) + Privoxy (ad/tracker blocking)
+**NeXuS is for everyone Privacy over Protocol.** ⚡⚡⚡
 
 ---
 
@@ -333,7 +311,7 @@ The doctor will:
 
 ### 📝 **Custom Configuration**
 
-**Privoxy routing rules:** Edit `privoxy-config`
+**Privoxy  rules:** Edit `privoxy-config`
 ```bash
 # Add custom routing
 forward-socks5t .yoursite.i2p 127.0.0.1:4447 .
@@ -383,11 +361,11 @@ Want to become a **NeXuS master?** We've got guides for every level:
 
 ### **Sane • Simple • Secure**
 
-**Sane:** Privacy shouldn't require paranoia. Use strong tools, but live your life. Don't let fear win.
+**Sane:** Privacy by default.
 
 **Simple:** If grandma can't use it, we failed. Technology should serve humans, not the other way around.
 
-**Secure:** No compromises. No backdoors. No "just this once." Security is binary - you're either protected or you're not.
+**Secure:** Baked in..No compromises. No backdoors. No "just this once." Security is binary - you're either protected or you're not.
 
 ### **The NeXuS Principles**
 
@@ -552,7 +530,7 @@ The excellent Tor proxy foundation, the clean architecture, and the inspiration 
 
 ### 📣 **Spread the Word**
 
-Privacy is a right. Help others claim it:
+Privacy is a right not a privilege. Help others claim it:
 
 - ⭐ **Star this repo** - GitHub stars = visibility
 - 🔄 **Share on social media** - Tweet, post, blog about it
@@ -756,8 +734,6 @@ And in the long run? **Truth wins.**
 
 [![GitHub](https://img.shields.io/badge/GitHub-hackenstacks/nexus--network--stack-blue?logo=github)](https://github.com/hackenstacks/nexus-network-stack)
 [![GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-orange.svg)](LICENSE)
-[![Networks](https://img.shields.io/badge/Networks-Tor%20%7C%20I2P%20%7C%20Yggdrasil%20%7C%20Reticulum-green.svg)]()
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen.svg)]()
 
 **Built with 🔥 by freedom fighters, for freedom fighters.**
 
